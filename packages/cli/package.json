@@ -1,14 +1,16 @@
 {
   "name": "@stellar-lumenmint/cli",
   "version": "0.1.0",
-  "description": "CLI tool for Stellar LumenMint — contract deployment, NFT minting, admin operations, and API queries",
+  "description": "CLI tool for Stellar LumenMint \u2014 contract deployment, NFT minting, admin operations, and API queries",
   "main": "dist/index.js",
   "bin": {
     "lumenmint": "./dist/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit"
   },
