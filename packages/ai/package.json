@@ -1,12 +1,14 @@
 {
   "name": "@stellar-lumenmint/ai",
   "version": "0.1.0",
-  "description": "AI utilities for Stellar LumenMint — NFT metadata generation, description enrichment, search enhancement",
+  "description": "AI utilities for Stellar LumenMint \u2014 NFT metadata generation, description enrichment, search enhancement",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist",
     "typecheck": "tsc -b"
   },
