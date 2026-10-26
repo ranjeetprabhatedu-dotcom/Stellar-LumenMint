@@ -1,12 +1,14 @@
 {
   "name": "@stellar-lumenmint/sdk",
   "version": "0.1.0",
-  "description": "TypeScript SDK for the Stellar LumenMint platform — REST, GraphQL, Soroban, and wallet utilities",
+  "description": "TypeScript SDK for the Stellar LumenMint platform \u2014 REST, GraphQL, Soroban, and wallet utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist",
     "typecheck": "tsc -b"
   },
